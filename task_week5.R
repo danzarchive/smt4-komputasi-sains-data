@@ -1,3 +1,4 @@
+# Tugas
 logistic_regression_NR <- function(X, y, tol = 1e-6, max_iter = 100) {
   X <- as.matrix(cbind(1, X))  # Tambahkan intercept
   beta <- rep(0, ncol(X))
